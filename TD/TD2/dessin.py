@@ -3,7 +3,7 @@ import tkinter as tk
 fenetre = tk.Tk ()
 
 def Oval():
-    canvas.create_oval(10, 10, 100, 100, outline='blue')
+    canvas.create_oval(1, 1, 300, 300, outline='blue')
 
 def Carre():
     canvas.create_rectangle(100, 100, 10, 10, outline="red")
